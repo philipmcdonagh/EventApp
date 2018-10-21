@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.estimote:scanning-sdk-0.13.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scanning-sdk-0.13.1.aar/6280bb44ac996017923439a75c02d4a5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scanning-sdk-0.13.1.aar/6280bb44ac996017923439a75c02d4a5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.estimote/scanning-sdk/0.13.1/b0f8ec23acd95c15c2ac68afa6a62ecd80a7ecd2/scanning-sdk-0.13.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

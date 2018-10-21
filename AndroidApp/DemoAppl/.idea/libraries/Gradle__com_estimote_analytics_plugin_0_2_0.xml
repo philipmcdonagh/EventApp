@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.estimote:analytics-plugin-0.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-plugin-0.2.0.aar/f51a9a35eaddf8ebd95693797b573acb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-plugin-0.2.0.aar/f51a9a35eaddf8ebd95693797b573acb/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.estimote/analytics-plugin/0.2.0/88124f7d753414195280170df8e348e24c58d895/analytics-plugin-0.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

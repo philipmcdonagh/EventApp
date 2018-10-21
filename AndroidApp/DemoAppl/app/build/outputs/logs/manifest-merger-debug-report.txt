@@ -1,0 +1,240 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c1d1efcff40cf5b8205ee90b12dc3ba7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:2:1-22:12
+MERGED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\10bc08f05be21ea48ede29f790c72ddf\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6e4db1612f3dcda4d3d71eb44838057a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\41c4064ba12f21f1aea27dfa917e76a1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\29e290e9b487b73515fae708bc955cd5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6fa4f09145e870d353514ca33eff4a0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0f3d89ff4d5a9fc0d58a03a67de29383\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cf7460e0cfcb1872ccfc8a5f79d8961e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\84fa258ff04fd7e3f63d7631a1b44d22\AndroidManifest.xml:17:1-31:12
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:2:1-25:12
+MERGED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:2:1-18:12
+MERGED from [com.estimote:analytics-plugin:0.2.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\analytics-plugin-0.2.0.aar\f51a9a35eaddf8ebd95693797b573acb\AndroidManifest.xml:2:1-14:12
+MERGED from [com.estimote:internal-plugins-api:0.17.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\internal-plugins-api-0.17.0.aar\7e4fc437d17c8b694e65a599cd2eb437\AndroidManifest.xml:2:1-14:12
+MERGED from [com.estimote:ketchup:0.2.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\ketchup-0.2.0.aar\64e5bbab0d37058df603de527d339f46\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\72a720f2c58fd0125a448e32a392f1fa\AndroidManifest.xml:15:1-21:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\de4d3a0b018f8650c177c551262484ec\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c1d1efcff40cf5b8205ee90b12dc3ba7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c1d1efcff40cf5b8205ee90b12dc3ba7\AndroidManifest.xml:9:5-20
+MERGED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:14:5-20:19
+MERGED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:14:5-20:19
+MERGED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:11:5-18:19
+MERGED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:11:5-18:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\10bc08f05be21ea48ede29f790c72ddf\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\10bc08f05be21ea48ede29f790c72ddf\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6e4db1612f3dcda4d3d71eb44838057a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6e4db1612f3dcda4d3d71eb44838057a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\41c4064ba12f21f1aea27dfa917e76a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\41c4064ba12f21f1aea27dfa917e76a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\29e290e9b487b73515fae708bc955cd5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\29e290e9b487b73515fae708bc955cd5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6fa4f09145e870d353514ca33eff4a0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6fa4f09145e870d353514ca33eff4a0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0f3d89ff4d5a9fc0d58a03a67de29383\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0f3d89ff4d5a9fc0d58a03a67de29383\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cf7460e0cfcb1872ccfc8a5f79d8961e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cf7460e0cfcb1872ccfc8a5f79d8961e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\84fa258ff04fd7e3f63d7631a1b44d22\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\84fa258ff04fd7e3f63d7631a1b44d22\AndroidManifest.xml:25:5-29:19
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:18:5-23:19
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:18:5-23:19
+MERGED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:15:5-16:19
+MERGED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:15:5-16:19
+MERGED from [com.estimote:analytics-plugin:0.2.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\analytics-plugin-0.2.0.aar\f51a9a35eaddf8ebd95693797b573acb\AndroidManifest.xml:11:5-12:19
+MERGED from [com.estimote:analytics-plugin:0.2.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\analytics-plugin-0.2.0.aar\f51a9a35eaddf8ebd95693797b573acb\AndroidManifest.xml:11:5-12:19
+MERGED from [com.estimote:internal-plugins-api:0.17.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\internal-plugins-api-0.17.0.aar\7e4fc437d17c8b694e65a599cd2eb437\AndroidManifest.xml:11:5-12:19
+MERGED from [com.estimote:internal-plugins-api:0.17.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\internal-plugins-api-0.17.0.aar\7e4fc437d17c8b694e65a599cd2eb437\AndroidManifest.xml:11:5-12:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\de4d3a0b018f8650c177c551262484ec\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\de4d3a0b018f8650c177c551262484ec\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.philip.demoappl.MainActivity
+ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c1d1efcff40cf5b8205ee90b12dc3ba7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c1d1efcff40cf5b8205ee90b12dc3ba7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\10bc08f05be21ea48ede29f790c72ddf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\10bc08f05be21ea48ede29f790c72ddf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6e4db1612f3dcda4d3d71eb44838057a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6e4db1612f3dcda4d3d71eb44838057a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\41c4064ba12f21f1aea27dfa917e76a1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\41c4064ba12f21f1aea27dfa917e76a1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\29e290e9b487b73515fae708bc955cd5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\29e290e9b487b73515fae708bc955cd5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6fa4f09145e870d353514ca33eff4a0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6fa4f09145e870d353514ca33eff4a0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0f3d89ff4d5a9fc0d58a03a67de29383\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0f3d89ff4d5a9fc0d58a03a67de29383\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cf7460e0cfcb1872ccfc8a5f79d8961e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cf7460e0cfcb1872ccfc8a5f79d8961e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\84fa258ff04fd7e3f63d7631a1b44d22\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\84fa258ff04fd7e3f63d7631a1b44d22\AndroidManifest.xml:21:5-23:58
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:analytics-plugin:0.2.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\analytics-plugin-0.2.0.aar\f51a9a35eaddf8ebd95693797b573acb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:analytics-plugin:0.2.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\analytics-plugin-0.2.0.aar\f51a9a35eaddf8ebd95693797b573acb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:internal-plugins-api:0.17.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\internal-plugins-api-0.17.0.aar\7e4fc437d17c8b694e65a599cd2eb437\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:internal-plugins-api:0.17.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\internal-plugins-api-0.17.0.aar\7e4fc437d17c8b694e65a599cd2eb437\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:ketchup:0.2.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\ketchup-0.2.0.aar\64e5bbab0d37058df603de527d339f46\AndroidManifest.xml:7:5-9:41
+MERGED from [com.estimote:ketchup:0.2.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\ketchup-0.2.0.aar\64e5bbab0d37058df603de527d339f46\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\72a720f2c58fd0125a448e32a392f1fa\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\72a720f2c58fd0125a448e32a392f1fa\AndroidManifest.xml:19:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\de4d3a0b018f8650c177c551262484ec\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\de4d3a0b018f8650c177c551262484ec\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+		ADDED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+		INJECTED from C:\source\EventApp\AndroidApp\DemoAppl\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\10bc08f05be21ea48ede29f790c72ddf\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\10bc08f05be21ea48ede29f790c72ddf\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6e4db1612f3dcda4d3d71eb44838057a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6e4db1612f3dcda4d3d71eb44838057a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\41c4064ba12f21f1aea27dfa917e76a1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\41c4064ba12f21f1aea27dfa917e76a1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\29e290e9b487b73515fae708bc955cd5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\29e290e9b487b73515fae708bc955cd5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6fa4f09145e870d353514ca33eff4a0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6fa4f09145e870d353514ca33eff4a0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0f3d89ff4d5a9fc0d58a03a67de29383\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0f3d89ff4d5a9fc0d58a03a67de29383\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cf7460e0cfcb1872ccfc8a5f79d8961e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\cf7460e0cfcb1872ccfc8a5f79d8961e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\84fa258ff04fd7e3f63d7631a1b44d22\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\84fa258ff04fd7e3f63d7631a1b44d22\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\34df816391d5f09edaa2a291374fd9dc\AndroidManifest.xml:27:13-51
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:11:5-68
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:12:5-68
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:12:5-74
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:13:5-74
+MERGED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:12:22-71
+receiver#com.estimote.proximity_sdk.trigger.TriggerBroadcastReceiver
+ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:15:9-19:20
+	android:name
+		ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:15:19-93
+intent-filter#action:name:com.estimote.proximity_trigger
+ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:16:13-18:29
+action#com.estimote.proximity_trigger
+ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:17:17-73
+	android:name
+		ADDED from [com.estimote:proximity-sdk:0.2.3] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\proximity-sdk-0.2.3.aar\101675b3eebf421cad1051d5b496e9fa\AndroidManifest.xml:17:25-70
+activity#com.estimote.mustard.rx_goodness.rx_activity_result.RxResultActivity
+ADDED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:12:9-14:56
+	android:theme
+		ADDED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:13:13-96
+activity#com.estimote.mustard.rx_goodness.rx_requirements_wizard.RequestPermissionActivity
+ADDED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:15:9-17:56
+	android:theme
+		ADDED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:17:13-53
+	android:name
+		ADDED from [com.estimote:mustard:0.2.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\mustard-0.2.2.aar\88f513f78c87c5d98ffb56ce97348f02\AndroidManifest.xml:16:13-109
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:16:5-88
+	android:name
+		ADDED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:16:29-85
+service#com.estimote.scanning_sdk.packet_provider.service.PacketProviderWrapperService
+ADDED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:19:9-22:40
+	android:enabled
+		ADDED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:21:13-35
+	android:exported
+		ADDED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [com.estimote:scanning-sdk:0.13.1] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\scanning-sdk-0.13.1.aar\6280bb44ac996017923439a75c02d4a5\AndroidManifest.xml:20:13-106
+uses-permission#android.permission.INTERNET
+ADDED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [com.estimote:cloud-plugin:0.8.2] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\cloud-plugin-0.8.2.aar\eb9e1f3bf4d17754810e8cce033d9b61\AndroidManifest.xml:13:22-76
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\de4d3a0b018f8650c177c551262484ec\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\de4d3a0b018f8650c177c551262484ec\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\de4d3a0b018f8650c177c551262484ec\AndroidManifest.xml:26:13-58
