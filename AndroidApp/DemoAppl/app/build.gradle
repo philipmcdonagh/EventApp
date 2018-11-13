@@ -28,4 +28,10 @@ dependencies {
     //estimote dependencies
     implementation 'com.estimote:proximity-sdk:0.2.+'
     implementation 'com.estimote:mustard:0.+'
+
+    compile (
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.4.1'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.4.1'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.4.1']
+    )
 }

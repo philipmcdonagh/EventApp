@@ -1,5 +1,11 @@
 package com.example.philip.demoappl;
 
+import com.example.philip.demoappl.View.VendorView;
+import com.example.philip.demoappl.View.hideVendorView;
+import com.example.philip.demoappl.businesslogic.*;
+import com.example.philip.demoappl.model.*;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.icu.util.Calendar;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +16,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import com.estimote.cloud_plugin.common.EstimoteCloudCredentials;
 import com.estimote.internal_plugins_api.cloud.CloudCredentials;
 import com.estimote.internal_plugins_api.cloud.proximity.ProximityAttachment;
@@ -19,6 +24,10 @@ import com.estimote.mustard.rx_goodness.rx_requirements_wizard.RequirementsWizar
 import com.estimote.proximity_sdk.proximity.ProximityObserver;
 import com.estimote.proximity_sdk.proximity.ProximityObserverBuilder;
 import com.estimote.proximity_sdk.proximity.ProximityZone;
+import com.example.philip.demoappl.model.User;
+import com.example.philip.demoappl.businesslogic.importVendors;
+
+import com.example.philip.demoappl.database.DatabaseHelper;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -41,93 +50,43 @@ import kotlin.Unit;
 import kotlin.jvm.functions.Function0;
 import kotlin.jvm.functions.Function1;
 
+import static android.provider.Contacts.SettingsColumns.KEY;
+
 public class MainActivity extends AppCompatActivity {
 
-     // 1. Add a property to hold the Proximity Observer
+    //declare database helper
+    DatabaseHelper db;
+
+    //declare user and make available to everything, this is a place holder until a proper user login has been set up
+    public static User currentUser = new User("Phil","1","phil@myemail.com","philsCompany","myLinkedin.com");
+
+    // 1. Add a property to hold the Proximity Observer to listen for bluetooth beacons
     private ProximityObserver proximityObserver;
 
-    public class upLoad extends AsyncTask<String,Void,String>{
-
-        @Override
-        protected String doInBackground(String... strings) {
-            Log.i("Info","upLoad triggered");
-            Log.i("Info",strings[0]);
-            Log.i("Info",strings[1]);
-            //Toast.makeText(MainActivity.this, "Upload function triggered ", Toast.LENGTH_LONG).show();
-            StringBuilder sb = new StringBuilder();
-
-            String http = "https://udmcrp0q5j.execute-api.eu-west-1.amazonaws.com/PROD";
-
-            HttpURLConnection urlConnection=null;
-            try {
-
-                URL url = new URL(http);
-                urlConnection = (HttpURLConnection) url.openConnection();
-                urlConnection.setDoOutput(true);
-                urlConnection.setRequestMethod("POST");
-                urlConnection.setUseCaches(false);
-                urlConnection.setConnectTimeout(10000);
-                urlConnection.setReadTimeout(10000);
-                urlConnection.setRequestProperty("Content-Type","application/json");
-
-                //urlConnection.setRequestProperty("Host", "android.schoolportal.gr");
-                urlConnection.connect();
-
-                //Create JSONObject here
-                JSONObject jsonParam = new JSONObject();
-                jsonParam.put("eventName", strings[0]);
-                jsonParam.put("beaconId", strings[1]);
-                jsonParam.put("time",strings[2]);
-                //jsonParam.put("isComplete", "true");
-                OutputStreamWriter out = new OutputStreamWriter(urlConnection.getOutputStream());
-                out.write(jsonParam.toString());
-                out.close();
-
-                int HttpResult =urlConnection.getResponseCode();
-                System.out.println("Http response is :" + HttpResult);
-                if(HttpResult ==HttpURLConnection.HTTP_OK){
-                    //Log.i("Info","connection OK!");
-                    BufferedReader br = new BufferedReader(new InputStreamReader(
-                            urlConnection.getInputStream(),"utf-8"));
-                    String line = null;
-                    while ((line = br.readLine()) != null) {
-                        sb.append(line + "\n");
-                    }
-                    br.close();
-
-                    System.out.println(""+sb.toString());
-
-                }else{
-                    System.out.println(urlConnection.getResponseMessage());
-                }
-            } catch (MalformedURLException e) {
-
-                e.printStackTrace();
-            }
-            catch (IOException e) {
-
-                e.printStackTrace();
-            } catch (JSONException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }finally{
-                if(urlConnection!=null)
-                    urlConnection.disconnect();
-            }
-
-
-
-            return null;
-        }
-    }
-
-
+    public Vendor v1 = new Vendor("Omeara camping","camping equipment","tents","Gazebos, Marquees, Accessories, Ice Boxes And So Much More",1);
+    public Vendor v11 = new Vendor("Millets","camping equipment","stoves","Stoves, portable cookers and pots",2);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //hide all the buttons so nothing displays until in range of a beacon
+        hideVendorView hideVendorView = new hideVendorView(MainActivity.this);
+        hideVendorView.Display();
+
+        //create database helper instance
+        db = new DatabaseHelper(getApplicationContext());
+
+        //create vendor on db - dummy
+        db.createVendor(v11);
+
+        //download the vendors from the db to local
+        downloadVendors task = new downloadVendors();
+        task.execute();
+
+        //cloud credentials for estimote SDK
         CloudCredentials cloudCredentials = new EstimoteCloudCredentials("philtest-mef", "8d0c2f2b4fdd8c2a24c0a38f2079249b");
+
 
         // 2. Create the Proximity Observer
         this.proximityObserver =
@@ -136,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public Unit invoke(Throwable throwable) {
                                 return null;
+
                             }
                         })
                 .withBalancedPowerMode()
@@ -151,13 +111,20 @@ public class MainActivity extends AppCompatActivity {
                         String pattern = "yyyy-MM-dd HH:mm:ss";
                         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
                         String currentDateTimeString = simpleDateFormat.format(new Date());
-
+                        Event e = new Event("checkin","1",currentDateTimeString,currentUser.getUserId());
                         //pop up to inform of check in
                         Toast.makeText(MainActivity.this, "You entered s1 " + currentDateTimeString, Toast.LENGTH_SHORT).show();
-
                         //upload the task to the database using the upload task
                         upLoad task = new upLoad();
-                        task.execute("checkin","s1",currentDateTimeString);
+                        task.execute(e.getEvent(),e.getBeaconId(),e.getEventTime(),e.getUserId());
+                        //check connection, if no connection available write the event to the local db for later upload
+                        //record event to local sqllite db
+                        db.createEvent(e);
+                        //Retrieve vendor from the db with stand number that matches the beacon id and display the details for this vendor
+
+                        Vendor v2 = db.getSingleVendor(2);
+                        VendorView vendorView = new VendorView(v2,MainActivity.this);
+                        vendorView.Display();
 
                         return null;
                     }
@@ -169,19 +136,23 @@ public class MainActivity extends AppCompatActivity {
                         String pattern = "yyyy-MM-dd HH:mm:ss";
                         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
                         String currentDateTimeString = simpleDateFormat.format(new Date());
-
+                        Event e = new Event("checkout","1",currentDateTimeString,currentUser.getUserId());
                         //pop up to inform of check in
                         Toast.makeText(MainActivity.this, "You have left stand 1 at " + currentDateTimeString, Toast.LENGTH_LONG).show();
-
                         //upload the task to the database using the upload task
                         upLoad task = new upLoad();
-                        task.execute("checkout","s1",currentDateTimeString);
+                        task.execute(e.getEvent(),e.getBeaconId(),e.getEventTime(),e.getUserId());
+                        //record event to local sqllite db
+                        db.createEvent(e);
+
+                        hideVendorView hideVendorView = new hideVendorView(MainActivity.this);
+                        hideVendorView.Display();
+
                         return null;
                     }
                 })
                 .create();
         this.proximityObserver.addProximityZone(zone1);
-
 
         RequirementsWizardFactory
                 .createEstimoteRequirementsWizard()
@@ -208,11 +179,5 @@ public class MainActivity extends AppCompatActivity {
                                 return null;
                             }
                         });
-
     }
-
-
-
-
-
 }

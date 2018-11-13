@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.estimote:proximity-sdk-0.2.3">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/proximity-sdk-0.2.3.aar/101675b3eebf421cad1051d5b496e9fa/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/proximity-sdk-0.2.3.aar/101675b3eebf421cad1051d5b496e9fa/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/proximity-sdk-0.2.3.aar/8365eafbfeb0af6222f3b73972d321af/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/proximity-sdk-0.2.3.aar/8365eafbfeb0af6222f3b73972d321af/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,13 +1,7 @@
-#Sun Oct 21 16:56:46 BST 2018
-path.3=classes.dex
-path.2=classes.dex
+#Tue Nov 13 20:56:37 GMT 2018
+base.0=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.1=classes.dex
-path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.3=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-base.2=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-base.1=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-base.0=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+base.1=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

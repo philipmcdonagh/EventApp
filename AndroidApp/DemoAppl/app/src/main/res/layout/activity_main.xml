@@ -6,23 +6,187 @@
     android:layout_height="match_parent"
     tools:context="com.example.philip.demoappl.MainActivity">
 
-    <TextView
-        android:id="@+id/textOutput"
-        android:layout_width="340dp"
-        android:layout_height="415dp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="51dp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="338dp"
-        android:layout_height="31dp"
-        android:fontFamily="sans-serif"
-        android:text="Events log"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="11dp" />
+
+
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textLblVendorName"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@android:color/background_light"
+                android:text="Vendor"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textVendorName"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@android:color/background_light"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textLblVendorName"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textLblVendorCategory"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@android:color/background_light"
+                android:text="Category"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/textVendorName"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textVendorCategory"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@android:color/background_light"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textVendorName"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+            <TextView
+                android:id="@+id/textLblVendorSubCategory"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@android:color/background_light"
+                android:text="Sub Category"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/textVendorCategory"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textVendorSubCategory"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/background_light"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textVendorCategory"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="153dp" />
+
+            <TextView
+                android:id="@+id/textLblVendorDescription"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@android:color/background_light"
+                android:text="Description"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/textVendorSubCategory"
+                app:layout_constraintVertical_bias="1.0"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textVendorDescription"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@android:color/background_light"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textLblVendorDescription"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="252dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btnSendBusinessCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintLeft_toRightOf="@+id/btnAddFavourite"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+                    <ImageButton
+                        android:id="@+id/btnAddFavourite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="8dp"
+                        android:onClick="addToFavourites"
+                        app:srcCompat="@android:drawable/btn_star"
+                        tools:layout_editor_absoluteX="11dp" />
+
+            </LinearLayout>
+
+            <RatingBar
+                android:id="@+id/avgRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/btnSendBusinessCard"
+                tools:layout_editor_absoluteX="122dp" />
+
+            <RatingBar
+                android:id="@+id/userRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:layout_constraintTop_toBottomOf="@+id/avgRatingBar"
+                tools:layout_editor_absoluteX="122dp" />
+
+            <TextView
+                android:id="@+id/textAvgRating"
+                app:layout_constraintTop_toBottomOf="@+id/btnSendBusinessCard"
+                app:layout_constraintLeft_toLeftOf="@+id/avgRatingBar"
+                android:layout_width="80dp"
+                android:layout_height="55dp"
+                android:text="Average Rating"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="364dp" />
+
+            <TextView
+                android:id="@+id/textuserRating"
+                app:layout_constraintTop_toBottomOf="@+id/textAvgRating"
+                app:layout_constraintLeft_toLeftOf="@+id/userRatingBar"
+                android:layout_width="80dp"
+                android:layout_height="55dp"
+                android:text="Your Rating"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="445dp" />
+
+
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>

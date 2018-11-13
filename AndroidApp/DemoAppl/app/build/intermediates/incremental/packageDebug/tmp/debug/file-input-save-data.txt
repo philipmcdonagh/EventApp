@@ -1,19 +1,11 @@
 #Internal package file, do not edit.
-#Sun Oct 21 16:56:46 BST 2018
-1.base=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-2.path=classes.dex
+#Mon Nov 12 22:21:40 GMT 2018
+1.base=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.baseType=DIRECTORY
-3.baseType=DIRECTORY
-2.base=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-3.set=DEX
-2.set=DEX
 1.baseType=DIRECTORY
-3.path=classes.dex
-count=4
+count=2
 1.set=DEX
 0.path=classes.dex
-3.base=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 0.set=DEX
-0.base=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-2.baseType=DIRECTORY
+0.base=C\:\\source\\EventApp\\AndroidApp\\DemoAppl\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 1.path=classes.dex
