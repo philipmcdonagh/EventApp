@@ -4,6 +4,7 @@ import android.companion.CompanionDeviceManager;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.io.Console;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -92,17 +93,16 @@ public class User {
     public void sendUserBusinessCard(){
         Log.i("mobius","BRAP");
         //Create object mapper
-
         ObjectMapper mapper = new ObjectMapper();       //create user obj
-
 
         //convert the user object to a string
         try{
             String jsonInString = mapper.writeValueAsString(this);
-            Log.i("mobius2",jsonInString);
+
         }
         catch (IOException e) {
             e.printStackTrace();
+            Log.i("mobius",e.toString());
         }
 
         //write the string to the vendor database

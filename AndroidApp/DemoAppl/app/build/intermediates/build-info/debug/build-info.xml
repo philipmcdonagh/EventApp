@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    build-mode="COLD"
+    density="xhdpi"
+    format="10"
+    ir-eligibility="COMPATIBLE"
+    plugin-version="3.2.1"
+    timestamp="1542311930760"
+    token="9217033615788533334"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2202" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="24" />
+    <task
+        name="verifier"
+        duration="13" />
+
+    <artifact
+        location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1542309356088"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1542309568406"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1542309752886"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1542311930760"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\source\EventApp\AndroidApp\DemoAppl\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+
+</instant-run>

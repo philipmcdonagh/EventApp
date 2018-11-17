@@ -47,7 +47,6 @@ public class VendorView {
         btnSendBusinessCard.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 currentUser.sendUserBusinessCard();
-                Toast.makeText(view.getContext(), "i've been clicked ", Toast.LENGTH_SHORT).show();
             }
         });
 

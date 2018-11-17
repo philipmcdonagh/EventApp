@@ -46,7 +46,6 @@ public class downloadVendors extends AsyncTask<String,Void,String> {
             int HttpResult =urlConnection.getResponseCode();
 
             if(HttpResult ==HttpURLConnection.HTTP_OK){
-                Log.i("FUCK Info","connection OK!");
                 //BufferedReader br = new BufferedReader(new InputStreamReader(
                 //        urlConnection.getInputStream(),"utf-8"));
                 //String line = null;
@@ -55,7 +54,6 @@ public class downloadVendors extends AsyncTask<String,Void,String> {
                 //}
                 ///br.close();
 
-                //System.out.println("FUCK SB"+sb.toString());
                 InputStream in = urlConnection.getInputStream();
 
                 InputStreamReader reader = new InputStreamReader(in);

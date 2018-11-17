@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textVendorName"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textVendorCategory"
+        app:layout_constraintTop_toBottomOf="@+id/textVendorName"
+        android:layout_width="340dp"
+        android:layout_height="52dp"
+        android:background="@android:color/background_light"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+
+    <TextView
+        android:id="@+id/textVendorSubCategory"
+        app:layout_constraintTop_toBottomOf="@+id/textVendorCategory"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/textVendorDescription"
+        app:layout_constraintTop_toBottomOf="@+id/textVendorSubCategory"
+        android:layout_width="340dp"
+        android:layout_height="140dp"
+        android:background="@android:color/background_light"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
